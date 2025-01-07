@@ -113,7 +113,7 @@
       "platform": {
         "http_proxy": {
           "enabled": true,
-          "server": "127.0.0.1",
+          "server": "0.0.0.0",
           "server_port": 7890
         }
       }
@@ -121,7 +121,7 @@
     {
       "tag": "mixed",
       "type": "mixed",
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "listen_port": 7890,
       "sniff": true
     }
@@ -140,7 +140,8 @@
       "tag":"OpenAI",
       "type":"selector",
       "outbounds":[
-        "Proxy"
+        "Proxy",
+        "{all}"
       ],
       "default": "Proxy"
     },
@@ -148,7 +149,8 @@
       "tag":"Google",
       "type":"selector",
       "outbounds":[
-        "Proxy"
+        "Proxy",
+        "{all}"
       ]
     },
     {
@@ -177,7 +179,8 @@
       "type":"selector",
       "outbounds":[
         "direct",
-        "Proxy"
+        "Proxy",
+        "{all}"
       ]
     },
     {
@@ -200,7 +203,8 @@
       "tag":"TikTok",
       "type":"selector",
       "outbounds":[
-        "Proxy"
+        "Proxy",
+        "{all}"
       ],
       "default": "Proxy"
     },
@@ -208,7 +212,8 @@
       "tag":"Netflix",
       "type":"selector",
       "outbounds":[
-        "Proxy"
+        "Proxy",
+        "{all}"
       ]
     },
     {
@@ -223,7 +228,8 @@
       "type":"selector",
       "outbounds":[
         "direct",
-        "Proxy"
+        "Proxy",
+        "{all}"
       ]
     },
     {
