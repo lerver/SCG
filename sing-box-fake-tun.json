@@ -136,7 +136,7 @@
       "type":"selector",
       "outbounds":[
         "America",
-        "{all}
+        "{all}"
       ],
       "default": "America"
     },
