@@ -136,6 +136,7 @@
       "tag":"OpenAI",
       "type":"selector",
       "outbounds":[
+        "Proxy",
         "America",
         "{all}"
       ],
@@ -256,6 +257,7 @@
       "outbounds":[ 
         "Proxy",
         "America",
+        "{all}",
         "direct"
       ]
     },
